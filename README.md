@@ -13,5 +13,4 @@
 * __HTML/CSS/Bootstrap__
 * __Nodemailer__
 * __Cloudinary__
-* __PDFKit (commented out – see below)__
 
