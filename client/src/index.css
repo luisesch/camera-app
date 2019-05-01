@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Gudea");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  background-color: #c0d6e4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button-pink {
+  background-color: #772158;
+  border-color: #772158;
+  color: white;
+  font-family: Gudea;
+}
+
+.button-pink:hover {
+  background-color: #772158;
+  border-color: #772158;
+  color: white;
+  font-family: Gudea;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}

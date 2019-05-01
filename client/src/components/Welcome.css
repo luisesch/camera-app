@@ -1,0 +1,11 @@
+.home-background {
+  background-image: url("/images/start-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 85vh;
+}
+
+.container-welcome {
+  margin: 0 !important;
+}

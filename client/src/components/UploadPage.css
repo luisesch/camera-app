@@ -1,0 +1,8 @@
+.upload-background {
+  min-height: 85vh;
+  background-color: #e6eaf2;
+}
+
+.uploaded-image {
+  max-height: 50vh;
+}
