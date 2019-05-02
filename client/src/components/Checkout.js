@@ -24,11 +24,11 @@ class Checkout extends Component {
           <Col />
           <Col>
             <Button
-              className="button-pink px-5 mt-4"
+              className="button-blue px-5 mt-4"
               type="submit"
               onClick={this.redirect}
             >
-              TAKE ANOTHER PHOTO
+              Take another photo
             </Button>
           </Col>
           <Col />

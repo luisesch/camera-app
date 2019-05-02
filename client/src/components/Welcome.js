@@ -22,12 +22,6 @@ class Welcome extends Component {
     this.props.setUser(name, id);
   };
 
-  // handleChange(e) {
-  //   this.setState({
-  //     file: e.target.files[0]
-  //   });
-  // }
-
   render() {
     return (
       <Container fluid className="container-welcome bg-white">

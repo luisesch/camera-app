@@ -9,16 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.button-pink {
-  background-color: #772158;
-  border-color: #772158;
+.button-blue {
+  background-color: #224f96;
+  border-color: #224f96;
   color: white;
   font-family: Gudea;
 }
 
-.button-pink:hover {
-  background-color: #772158;
-  border-color: #772158;
+.button-blue:hover {
+  background-color: #224f96;
+  border-color: #224f96;
   color: white;
   font-family: Gudea;
 }

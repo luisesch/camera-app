@@ -50,7 +50,7 @@ class Welcome extends Component {
             required
           />
         </Form.Group>
-        <Button className="button-pink px-5" type="submit">
+        <Button className="button-blue px-5" type="submit">
           NEXT STEP
         </Button>
       </Form>

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-// import React-bootstrap components
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
@@ -13,9 +12,9 @@ class SendForm extends Component {
   render() {
     return (
       <Form onSubmit={this.handleSend}>
-        <h4>All readable?</h4>
+        <h4>All good?</h4>
         <p>Then send us your picture by hitting:</p>
-        <Button className="button-pink px-5 mb-2" type="submit">
+        <Button className="button-blue px-5 mb-2" type="submit">
           SEND
         </Button>
       </Form>

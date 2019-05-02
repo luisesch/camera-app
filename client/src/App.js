@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
-import Service from "./service";
 import { Switch, Route } from "react-router-dom";
 
 // import components
@@ -17,11 +16,8 @@ class App extends Component {
     super(props);
     this.state = {
       username: "",
-      email: "",
-      file: "",
-      img: ""
+      email: ""
     };
-    this.service = new Service();
   }
 
   // set state with entered username and email

@@ -39,7 +39,7 @@ class UploadForm extends Component {
           />
         </Form.Group>
 
-        <Button className="button-pink px-5 mt-4" type="submit">
+        <Button className="button-blue px-5 mt-4" type="submit">
           UPLOAD
         </Button>
       </Form>
