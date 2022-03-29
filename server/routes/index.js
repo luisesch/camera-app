@@ -13,8 +13,8 @@ let transporter = nodemailer.createTransport({
   service: "Gmail",
   auth: {
     user: process.env.EMAIL_ADDRESS,
-    pass: process.env.EMAIL_PASSWORD
-  }
+    pass: process.env.EMAIL_PASSWORD,
+  },
 });
 
 transporter.verify((error, success) => {
@@ -31,8 +31,8 @@ router.get("/", (req, res, next) => {
 });
 
 // upload photo on cloudinary
-router.post("/new-photo", parser.single("picture"), (req, res, next) => {
-  res.status(200).json(req.file.url);
+router.post("/new-photo", parser.single("picture"), (req, res) => {
+  res.status(200).json(req.file.path);
 });
 
 // send photo as jpg - see code for pdf below
@@ -55,15 +55,15 @@ router.post("/send-photo", (req, res, next) => {
     attachments: [
       {
         filename: user + ".png",
-        path: img
-      }
-    ]
+        path: img,
+      },
+    ],
   };
 
   transporter.sendMail(mail, (err, data) => {
     if (err) {
       res.json({
-        msg: "fail"
+        msg: "fail",
       });
     } else {
       res.status(200);
